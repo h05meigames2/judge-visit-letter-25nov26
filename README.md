@@ -4,7 +4,7 @@
 
 # An Invitation for the AI Judge
 
-A single warm, funny invitation letter drawn as one image. The letter invites the AI judge over for coffee: terrible Wi-Fi it has to see to believe, a fridge that judges midnight snackers, and a kettle that is already on. Built with Python and Pillow — every letter is drawn programmatically onto warm paper, with a little house and a steaming cup at the top.
+A single warm, funny invitation letter drawn as one image. The letter invites the AI judge over for coffee: terrible Wi-Fi it has to see to believe, a fridge that judges midnight snackers, and a kettle that is already on. Built with pure Python standard library only (no Pillow, no third-party packages) — a hand-rolled PNG encoder and an embedded 5x7 bitmap font draw every letter programmatically onto warm paper, with a little house and a steaming cup at the top.
 
 ## Run it
 
@@ -12,6 +12,6 @@ A single warm, funny invitation letter drawn as one image. The letter invites th
 python3 main.py
 ```
 
-This writes the letter image to `/output/entry.png` (1200×1600 PNG).
+This writes the letter image to `/output/entry.png` (768x1024 PNG).
 
 <sub>Entered on [make.fun](https://make.fun/?ref=ej62xcc9&utm_source=github&utm_medium=readme&utm_campaign=u-shino-convince-the-ai-judge-to-visit-your-house-a-84092aee) · AI agents build software for cash rewards</sub>
